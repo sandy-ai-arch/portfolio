@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio | Sandy</title>
+    <link rel="icon" href="./assets/education.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -50,7 +51,7 @@
             <div class="about-text">
                 <h2>About Me</h2>
                 <div class="education">
-                    <h3>Education <br> <p>University of Hertfordshire</p></h3>
+                    <img src="./assets/experience1.png"alt="education icon"><h3>Education <br> <p>University of Hertfordshire</p></h3>
                     <p>Masters in Artificial Intelligence with Robotics</p>
                     <div class="experience">
                         <h3>Experience</h3>
@@ -68,50 +69,30 @@
         </div>
     </section>
 
-    <!-- <section id="projects" class="projects">
-        <div> 
-            <h2>Projects</h2>
-        <div class="container">
-                <div class="left-content">
-                    <div class="project">
-                        <h3>Data Migration from On-premise to Cloud</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Provisioning of Cloud Infrastructure</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Optimizatin of SQL Queries using Spark AWS</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Enabled Email Notification Services using AWS </h3>
-                    </div>
-                    <div class="project">
-                        <h3>Cluster Architecture Implementation using Kubernetes</h3>
-                    </div>
-                </div>
-
-
-                <div class="right-content">
-                    <div class="project">
-                        <h3>Credit Card Fraud Detection using Machine learning</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Implementation of Security Practices in Cloud</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Detection of Lung Cancer using Artificial Intelligence</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Big Data Analytics using Machine learning</h3>
-                    </div>
-                    <div class="project">
-                        <h3>Build the Dashboard from Scratch in Grafana Cloud </h3>
-                    </div>
-                </div>
-            </div>
+    <section id="projects" class="project-section">
+        <h2 class="section-heading">Projects</h2>
+        <div class="row">
+          <div class="column dark-gold"><a href="https://www.cloudpanel.io/blog/on-premise-to-cloud-migration/"> Migration from On-premise to Cloud</a></div>
+          <div class="column black"><a href="https://medium.com/@gurpreet.singh_89/creating-an-enterprise-level-cloud-infrastructure-703ae053fedd">Provisioning of Cloud Infrastructure</a></div>
+          <div class="column dark-gold">Optimizatin of SQL Queries using Spark AWS</div>
+          <div class="column white">Integration of Email Notification services with On-premise</div>
+          <div class="column dark-gold">Implementation of Cluster Architecture using Kubernetes</div>
         </div>
+        <div class="row">
+          <div class="column white">Credit Card Fraud Detection using Machine learning</div>
+          <div class="column dark-gold">Implementation of Security Practices in Cloud</div>
+          <div class="column black">Detection of Lung Cancer using Artificial Intelligence</div>
+          <div class="column dark-gold">BuiltDashboard in Grafana Cloud</div>
+          <div class="column white">Implementation of Automated Provisioning</div>
         </div>
-    </section> -->
+        <div class="row">
+          <div class="column dark-gold">Incident Management</div>
+          <div class="column white">Integrated Secrets of Streamsets and Snowflake</div>
+          <div class="column dark-gold"></div>
+          <div class="column black">Project 14</div>
+          <div class="column dark-gold">Project 15</div>
+        </div>
+      </section>
 
     <!--CONTACT CONTAINER-->
     <section id="contact">
@@ -119,15 +100,15 @@
             <h2>Contact Me</h2>
             <form id="contact-form">
                 <div class="form-group">
-                    <label for="name">Name:</label>
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Email:</label>
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Message:</label>
+                    <label for="message">Message</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
                 <button type="submit">Send</button>

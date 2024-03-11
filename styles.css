@@ -70,20 +70,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: royalblue;
+    color: lightslategrey;
     text-decoration:solid;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5%;
 }
 
 .hero {
-    background-image: url('hero-bg.jpg');
+    background-image: url('./assets/First-background-pic.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    border-radius: 1%;
+    
 }
 
 .hero-content {
@@ -143,10 +143,11 @@ footer {
 
 
 .about {
-    background-color: #31363F;
+    background-image: url('./assets/second-background.jpg');
+    background-size:cover;
+    background-color: black;
     text-align: center;
     padding: 80px 0;
-    border-radius: 2%;
 }
 
 .about-container {
@@ -198,63 +199,67 @@ footer {
 }
 
 .experience h3, .summary h3, .education h3 {
-    color: #ff9800;
+    color: black;
 }
 
 /* PROJECTS */
 
-/* .projects {
-    background-color: gold;
-    color: #ccc; 
-    padding: 80px 0;
+.project-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/Third\ background.jpg');
+    background-size: cover;
+}
+
+.project-section a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+  
+.project-section a:hover {
+    color: lightseagreen; /* Change text color on hover */
+}
+
+.section-heading {
+    text-align: center;
+    color: #855E42; /* Dark gold color */
+}
+  
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.column {
+    flex: 1;
+    padding: 20px;
     text-align: center;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
+  
+  .dark-gold {
+    background-color: #855E42;
+    color: white;
 }
-
-.left-content, .right-content {
-    width: 30%;
-    margin: auto;
-    padding: 10px;
+  
+.black {
+    background-color: black;
+    color: white;
 }
-
-.projects .container {
-    max-width: 800px;
-    margin: 0 auto;
+  
+.white {
+    background-color: white;
+    color: black;
 }
-
-.projects h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.project {
-    background-color: #555;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 4%;
-}
-
-.project h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.project p {
-    font-size: 18px;
-    line-height: 1.6;
-} */
-
+  
 
 
 /* CONTACT ME */
 
-.contact {
-    background-color: skyblue; 
-    color: #000; 
+#contact {
+    background-image: url('./assets/contact1.jpg');
+    background-size: cover;
+    color: brown; 
     padding: 80px 0;
     text-align: center;
 }
@@ -278,6 +283,7 @@ label {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 input[type="text"],
@@ -286,12 +292,13 @@ textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #000;
-    border-radius: 5px;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 textarea {
-    height: 150px; /* Adjust as needed */
+    height: 150px; 
+    border-radius: 5px;
 }
 
 button {

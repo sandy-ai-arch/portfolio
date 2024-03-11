@@ -141,6 +141,27 @@ footer {
 
 /* Section ABOUT */
 
+.about-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: justify;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
 
 .about {
     background-image: url('./assets/second-background.jpg');
@@ -148,6 +169,11 @@ footer {
     background-color: black;
     text-align: center;
     padding: 80px 0;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 100px;
 }
 
 .about-container {
@@ -163,9 +189,25 @@ footer {
     max-width: 30%;
 }
 
-.about-image img {
-    width: 100%;
-    border-radius: 50%;
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.right {
+    text-align: right;
+    margin-top: 35px;
 }
 
 .about-text {
@@ -190,6 +232,9 @@ footer {
     line-height: 1.6;
 }
 
+.padding-bottom {
+    padding-bottom: 30px;
+}
 .education, .experience, .summary {
     margin-bottom: 30px;
 }
@@ -209,6 +254,7 @@ footer {
     flex-direction: column;
     background-image: url('./assets/Third\ background.jpg');
     background-size: cover;
+    margin: 0;
 }
 
 .project-section a {
@@ -229,11 +275,12 @@ footer {
 .row {
     display: flex;
     flex-wrap: nowrap;
+    padding: 10px;
 }
   
 .column {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
   

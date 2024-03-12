@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Message delivery failed!";
     }
-} else {
+ else {
     echo "Invalid request method!";
 }
 ?>
